@@ -67,15 +67,50 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them).
+
+* I am hypothesising that analyzing visual characteristics of cherry blossom images can differentiate healthy leaves from powdery mildew-infected ones. By extracting relevant features and training a machine learning model, I'm aiming to predict the health status of cherry leaves based on their images.
+
+To validate my hypothesis, I will:
+
+1. Explore the dataset and visually compare features of healthy and powdery mildew-infected cherry leaves.
+2. Extract meaningful features from the images, focusing on color distributions, texture patterns, and shape characteristics.
+3. Analyze and compare the extracted features between healthy and infected leaves.
+4. Build and evaluate machine learning models using the extracted features.
+Assess the model's performance using accuracy, precision, recall, and F1-score metrics.
+5. Validate my hypothesis by determining if the model accurately distinguishes between healthy and infected cherry leaves.
+
+By conducting these steps, I aim to validate my hypothesis and provide evidence that visual characteristics can be used to identify the health status of cherry leaves.
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+
+1. Conduct a study to visually differentiate a healthy cherry leaf from one that contains powdery mildew.
+2. Predict if a cherry leaf is healthy or contains powdery mildew.
+
+Rationale for Mapping to Data Visualisations and ML Tasks:
+
+1. Conduct a study to visually differentiate a healthy cherry leaf from one that contains powdery mildew:
+* Data Visualisation: By visualising the characteristics of healthy and infected cherry leaves, such as colour, texture, and shape, we can identify patterns and differences that aid in differentiation.
+* ML Tasks: Machine learning algorithms can be trained on the visual features extracted from the images to learn the patterns associated with healthy and infected leaves. This enables the development of models that can classify new cherry leaves based on their visual characteristics.
+2. Predict if a cherry leaf is healthy or contains powdery mildew:
+* Data Visualisation: Visualising the predictions made by the ML models can provide insights into the performance and accuracy of the classification task. It helps stakeholders understand the model's ability to predict the health status of cherry leaves.
+* ML Tasks: Machine learning models can be trained using labelled data to predict the health status of cherry leaves. By mapping the business requirement to ML tasks, we can develop classification models that leverage the visual features of the cherry leaf images to make accurate predictions.
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+Aim: The aim of the ML task is to develop a predictive model that can accurately differentiate between healthy cherry leaves and those infected with powdery mildew.
+
+Learning Method: The ML task will utilize a supervised learning approach, specifically binary classification, to train the model on a labeled dataset of cherry leaf images.
+
+Ideal Outcome: The ideal outcome is to create a model that can accurately classify cherry leaves as healthy or powdery mildew-infected based on their visual features, with a high degree of accuracy.
+
+Success/Failure Metrics: The success of the ML task will be evaluated based on the model's accuracy, precision, recall, and F1 score in classifying cherry leaves. A high accuracy rate, along with balanced precision and recall scores, indicates a successful model.
+
+Model Output and Relevance: The model will output a prediction for each cherry leaf image, indicating whether it is healthy or infected with powdery mildew. This prediction is relevant to stakeholders as it provides a quick and automated method to identify diseased cherry leaves, aiding in effective management and prevention strategies.
+
+Training Data: The model will be trained using a dataset of labeled cherry leaf images, where each image is annotated as healthy or infected. The training data will include a sufficient number of samples representing both healthy and powdery mildew-infected leaves to ensure the model captures the relevant visual patterns.
+
+By framing the ML business case in this manner, we establish clear objectives, define the learning approach, outline the desired outcomes and metrics, highlight the relevance of the model's output, and specify the heuristics and training data necessary for successful model development.
 
 
 ## Dashboard Design
