@@ -84,17 +84,30 @@ By conducting these steps, I aim to validate my hypothesis and provide evidence 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-1. Conduct a study to visually differentiate a healthy cherry leaf from one that contains powdery mildew.
-2. Predict if a cherry leaf is healthy or contains powdery mildew.
+1. As a client, I want to conduct a study that visually differentiates a healthy cherry leaf from one that contains powdery mildew. This will allow me to accurately identify and classify cherry leaves based on their health condition.
+2. As a client, I want to predict whether a cherry leaf is healthy or contains powdery mildew. By having this predictive capability, I can proactively identify and manage potential issues related to powdery mildew infection in cherry trees, ensuring the overall health and quality of the produce.
 
 Rationale for Mapping to Data Visualisations and ML Tasks:
 
-1. Conduct a study to visually differentiate a healthy cherry leaf from one that contains powdery mildew:
-* Data Visualisation: By visualising the characteristics of healthy and infected cherry leaves, such as colour, texture, and shape, we can identify patterns and differences that aid in differentiation.
-* ML Tasks: Machine learning algorithms can be trained on the visual features extracted from the images to learn the patterns associated with healthy and infected leaves. This enables the development of models that can classify new cherry leaves based on their visual characteristics.
-2. Predict if a cherry leaf is healthy or contains powdery mildew:
-* Data Visualisation: Visualising the predictions made by the ML models can provide insights into the performance and accuracy of the classification task. It helps stakeholders understand the model's ability to predict the health status of cherry leaves.
-* ML Tasks: Machine learning models can be trained using labelled data to predict the health status of cherry leaves. By mapping the business requirement to ML tasks, we can develop classification models that leverage the visual features of the cherry leaf images to make accurate predictions.
+As a client, I want to conduct a study to visually differentiate a healthy cherry leaf from one that contains powdery mildew, so that I can effectively identify and manage potential health issues in cherry trees.
+
+To achieve this, the following objectives and tasks are essential:
+
+1. Data Visualisation:
+* Objective: By visualising the characteristics of healthy and infected cherry leaves, such as colour, texture, and shape, I can identify distinct patterns and differences that aid in the differentiation process.
+* Task: Utilize data visualisation techniques to explore and represent the visual features of cherry leaves, enabling a comprehensive understanding of the variations between healthy and powdery mildew-infected leaves.
+2. ML Tasks:
+* Objective: I want to leverage machine learning algorithms to predict whether a cherry leaf is healthy or contains powdery mildew, providing an automated and reliable assessment.
+* Task: Develop ML models that can learn from labelled data, using the visual features extracted from the cherry leaf images. By mapping the business requirement to ML tasks, I can train classification models that accurately classify cherry leaves based on their visual characteristics.
+
+Furthermore, I understand the significance of data visualisation in evaluating the ML models' performance and ensuring their effectiveness:
+
+1. Data Visualisation:
+* Objective: By visualising the predictions made by the ML models, I can gain insights into the model's performance and assess the accuracy of the classification task.
+* Task: Utilise visualisation techniques to present the model's predictions and classification results, allowing stakeholders to understand the model's capability in predicting the health status of cherry leaves.
+2. ML Tasks:
+* Objective: By effectively mapping the business requirement to ML tasks, I can develop robust classification models that leverage the visual features of cherry leaf images for accurate predictions.
+* Task: Train machine learning models using labelled data, enabling them to predict the health status of cherry leaves based on the extracted visual features.
 
 
 ## ML Business Case
