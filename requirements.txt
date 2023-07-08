@@ -7,6 +7,6 @@ plotly
 streamlit
 
 scikit-learn
-tensorflow-cpu
+tensorflow
 keras
 protobuf
