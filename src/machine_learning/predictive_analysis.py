@@ -4,6 +4,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 from src.machine_learning.predictive_analysis import load_pkl_file
+from tensorflow.keras.models import load_model
 
 def plot_predictions_probabilities(pred_proba, pred_class):
   """
@@ -70,3 +71,34 @@ def resize_input_image(img, version):
   my_image = np.expand_dims(img_resized, axis=0) / 255
 
   return my_image
+
+def load_model_and_predict(my_image, version):
+  """
+  Load and perform machine learning prediction on live images.
+
+  Args:
+      my_image (np.ndarray): Resized and normalized image.
+      version (str): Model version.
+
+  Returns:
+      tuple: Prediction probability and predicted class label.
+
+  """
+  # Load the pre-trained model
+  model = load_model(f"outputs/{version}/powdery_mildew_model.h5")
+
+  # Perform prediction on the input image
+  pred_proba = model.predict(my_image)[0, 0]
+
+  # Map the class labels to their corresponding indices
+  target_map = {v: k for k, v in {'Healthy': 0, 'Infected': 1}.items()}
+
+  # Determine the predicted class based on the prediction probability
+  pred_class = target_map[pred_proba < 0.5]
+  if pred_class == target_map[1]:
+      pred_proba = 1 - pred_proba
+
+  # Display the predicted class label
+  st.write(f"The predictive analysis indicates the sample leaf is **{pred_class.lower()}**")
+
+  return pred_proba, pred_class
