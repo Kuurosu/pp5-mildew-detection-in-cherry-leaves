@@ -20,3 +20,5 @@ def page_ml_performance_metrics():
     st.image(model_loss, caption='Model Training Losses')
   st.write("---")
   
+  st.write("### Generalised Performance on Test Set")
+  st.dataframe(pd.DataFrame(load_test_evaluation(version), index=['Loss', 'Accuracy']))
