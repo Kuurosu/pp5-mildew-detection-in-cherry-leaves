@@ -1,4 +1,5 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 
 def page_leaves_visualiser_body():
   st.write("### Leaves Visualiser")
@@ -18,3 +19,17 @@ def page_leaves_visualiser_body():
     f"in pixel values. To normalise an image, the mean and standard deviation of the entire dataset "
     f"are calculated using a mathematical formula that takes into account the properties of an image."
     )
+  
+  version = 'v1'
+  if st.checkbox("Difference between average and variability image"):
+    avg_powdery_mildew = plt.imread(f"outputs/{version}/avg_var_powdery_mildew.png")
+    avg_uninfected = plt.imread(f"outputs/{version}/avg_var_healthy.png")
+
+    st.warning(
+      f"Upon observing the average and variability images, we did not identify "
+      f"clear visual patterns that would allow for intuitive differentiation. "
+      f"However, leaves affected by powdery mildew exhibited distinct white stripes "
+      f"in the central region."
+      )
+
+    
