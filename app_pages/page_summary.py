@@ -45,3 +45,7 @@ def page_summary_body():
         f"containing the results of the examined leaves, aiding in further analysis "
         f"and decision-making processes."
     )
+
+    st.write(
+        f"For additional information, please visit and **read** the "
+        f"[Project README file](https://github.com/kuurosu/pp5-mildew-detection-in-cherry-leaves#readme).")
