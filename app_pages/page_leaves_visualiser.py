@@ -65,56 +65,56 @@ def page_leaves_visualiser_body():
                 nrows=8, ncols=3, figsize=(10,25))
       
 def montage(dir_path, label_to_display, nrows, ncols, figsize=(15, 10)):
-    """
-    Creates a montage of images from a specified label in the given directory.
-    The montage is displayed using subplots.
+  """
+  Creates a montage of images from a specified label in the given directory.
+  The montage is displayed using subplots.
 
-    Args:
-        dir_path (str): The path to the directory containing the images.
-        label_to_display (str): The label of the images to display.
-        nrows (int): The number of rows in the montage.
-        ncols (int): The number of columns in the montage.
-        figsize (tuple, optional): The size of the figure. Defaults to (15, 10).
+  Args:
+      dir_path (str): The path to the directory containing the images.
+      label_to_display (str): The label of the images to display.
+      nrows (int): The number of rows in the montage.
+      ncols (int): The number of columns in the montage.
+      figsize (tuple, optional): The size of the figure. Defaults to (15, 10).
 
-    Returns:
-        None
-    """
+  Returns:
+      None
+  """
 
-    sns.set_style("white")
-    labels = os.listdir(dir_path)
+  sns.set_style("white")
+  labels = os.listdir(dir_path)
 
-    # Check if the specified label exists in the directory
-    if label_to_display in labels:
+  # Check if the specified label exists in the directory
+  if label_to_display in labels:
 
-        images_list = os.listdir(dir_path + '/' + label_to_display)
-        
-        # Check if the requested montage size is greater than the number of available images
-        if nrows * ncols < len(images_list):
-            img_idx = random.sample(images_list, nrows * ncols)
-        else:
-            print(f"Decrease nrows or ncols to create your montage.\n"
-                  f"There are {len(images_list)} images in your subset.\n"
-                  f"You requested a montage with {nrows * ncols} spaces")
-            return
+      images_list = os.listdir(dir_path + '/' + label_to_display)
+      
+      # Check if the requested montage size is greater than the number of available images
+      if nrows * ncols < len(images_list):
+          img_idx = random.sample(images_list, nrows * ncols)
+      else:
+          print(f"Decrease nrows or ncols to create your montage.\n"
+                f"There are {len(images_list)} images in your subset.\n"
+                f"You requested a montage with {nrows * ncols} spaces")
+          return
 
-        # Create a list of axes indices based on nrows and ncols
-        list_rows = range(0, nrows)
-        list_cols = range(0, ncols)
-        plot_idx = list(itertools.product(list_rows, list_cols))
+      # Create a list of axes indices based on nrows and ncols
+      list_rows = range(0, nrows)
+      list_cols = range(0, ncols)
+      plot_idx = list(itertools.product(list_rows, list_cols))
 
-        # Create a Figure and display images
-        fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize)
-        for x in range(0, nrows * ncols):
-            img = imread(dir_path + '/' + label_to_display + '/' + img_idx[x])
-            img_shape = img.shape
-            axes[plot_idx[x][0], plot_idx[x][1]].imshow(img)
-            axes[plot_idx[x][0], plot_idx[x][1]].set_title(f"Width {img_shape[1]}px x Height {img_shape[0]}px")
-            axes[plot_idx[x][0], plot_idx[x][1]].set_xticks([])
-            axes[plot_idx[x][0], plot_idx[x][1]].set_yticks([])
-        plt.tight_layout()
+      # Create a Figure and display images
+      fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=figsize)
+      for x in range(0, nrows * ncols):
+          img = imread(dir_path + '/' + label_to_display + '/' + img_idx[x])
+          img_shape = img.shape
+          axes[plot_idx[x][0], plot_idx[x][1]].imshow(img)
+          axes[plot_idx[x][0], plot_idx[x][1]].set_title(f"Width {img_shape[1]}px x Height {img_shape[0]}px")
+          axes[plot_idx[x][0], plot_idx[x][1]].set_xticks([])
+          axes[plot_idx[x][0], plot_idx[x][1]].set_yticks([])
+      plt.tight_layout()
 
-        st.pyplot(fig=fig)
+      st.pyplot(fig=fig)
 
-    else:
-        print("The label you selected doesn't exist.")
-        print(f"The existing options are: {labels}")
+  else:
+      print("The label you selected doesn't exist.")
+      print(f"The existing options are: {labels}")
