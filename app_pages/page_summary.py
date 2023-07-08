@@ -34,3 +34,14 @@ def page_summary_body():
         f"detection in cherry trees, contributing to effective disease management "
         f"strategies and crop protection measures."
     )
+
+    st.success(
+        f"The project encompasses three key business requirements:\n\n"
+        f"1 - Conduct a comprehensive visual analysis to accurately differentiate "
+        f"between a healthy leaf and an infected leaf affected by powdery mildew.\n\n"
+        f"2 - Develop a robust prediction model capable of accurately determining "
+        f"whether a given leaf is infected by powdery mildew or remains unaffected.\n\n"
+        f"3 - Provide an easily accessible platform to download prediction reports "
+        f"containing the results of the examined leaves, aiding in further analysis "
+        f"and decision-making processes."
+    )
