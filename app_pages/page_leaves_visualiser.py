@@ -32,4 +32,6 @@ def page_leaves_visualiser_body():
       f"in the central region."
       )
 
-    
+    st.image(avg_powdery_mildew, caption='Affected Leaf - Average and Variability')
+    st.image(avg_uninfected, caption='Healthy Leaf - Average and Variability')
+    st.write("---")
