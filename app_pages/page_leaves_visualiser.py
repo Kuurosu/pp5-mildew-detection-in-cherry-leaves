@@ -46,4 +46,7 @@ def page_leaves_visualiser_body():
       f"characteristics or features were identified to facilitate easy differentiation."
       )
     st.image(diff_between_avgs, caption='Difference between average images')
+  
+  if st.checkbox("Image Montage"): 
+      st.write("To refresh the montage, click on the 'Create Montage' button")
       
