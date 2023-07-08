@@ -37,6 +37,7 @@ def page_leaves_visualiser_body():
     st.write("---")
     
   if st.checkbox("Differences between average infected and healthy leaves were examined"):
+    diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
     st.warning(
       f"Upon careful examination of the study, we have observed that it did not reveal "
@@ -44,4 +45,5 @@ def page_leaves_visualiser_body():
       f"two entities in question. Despite our extensive analysis, no distinctive visual "
       f"characteristics or features were identified to facilitate easy differentiation."
       )
+    st.image(diff_between_avgs, caption='Difference between average images')
       
