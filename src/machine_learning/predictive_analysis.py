@@ -1,10 +1,10 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from PIL import Image
 import numpy as np
-from src.machine_learning.predictive_analysis import load_pkl_file
 from tensorflow.keras.models import load_model
+from PIL import Image
+from src.data_management import load_pkl_file
 
 def plot_predictions_probabilities(pred_proba, pred_class):
   """
