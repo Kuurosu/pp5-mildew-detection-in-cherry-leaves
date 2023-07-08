@@ -35,3 +35,13 @@ def page_leaves_visualiser_body():
     st.image(avg_powdery_mildew, caption='Affected Leaf - Average and Variability')
     st.image(avg_uninfected, caption='Healthy Leaf - Average and Variability')
     st.write("---")
+    
+  if st.checkbox("Differences between average infected and healthy leaves were examined"):
+
+    st.warning(
+      f"Upon careful examination of the study, we have observed that it did not reveal "
+      f"discernible patterns that would allow for intuitive differentiation between the "
+      f"two entities in question. Despite our extensive analysis, no distinctive visual "
+      f"characteristics or features were identified to facilitate easy differentiation."
+      )
+      
