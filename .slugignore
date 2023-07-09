@@ -8,3 +8,8 @@ README.md
 .gitpod.dockerfile
 .gitpod.yml
 app_pages/__pycache__/*
+*.zip
+jupyter_notebooks/.ipynb_checkpoints
+jupyter_notebooks/01-DataCollection.ipynb
+jupyter_notebooks/02-DataVisualisation.ipynb
+jupyter_notebooks/03-ModelingEvaluating.ipynb
