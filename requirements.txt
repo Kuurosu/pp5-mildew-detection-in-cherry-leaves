@@ -9,7 +9,7 @@ jupyterlab-widgets
 kaggle
 kaleido
 keras
-matplotli
+matplotlib
 matplotlib-inlin
 numpy
 panda
