@@ -3,7 +3,6 @@ pandas
 matplotlib
 seaborn
 plotly
-kaleido
 tensorflow-cpu==2.8.0
 
 streamlit
