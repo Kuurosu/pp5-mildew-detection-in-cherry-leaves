@@ -10,12 +10,12 @@ kaggle
 kaleido
 keras
 matplotlib
-matplotlib-inlin
+matplotlib-inline
 numpy
-panda
-pickleshar
+pandas
+pickleshare
 plotly
-scikit-lear
+scikit-learn
 scipy
 scikit-learn
 streamlit
