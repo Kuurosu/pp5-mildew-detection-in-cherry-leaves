@@ -4,11 +4,10 @@ matplotlib
 seaborn
 plotly
 kaleido
-tensorflow
+tensorflow-lite
 
 streamlit
 
 scikit-learn
-tensorflow
 keras
 protobuf
