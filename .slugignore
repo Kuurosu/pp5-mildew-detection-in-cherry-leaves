@@ -19,3 +19,4 @@ jupyter_notebooks/02-DataVisualisation.ipynb
 jupyter_notebooks/03-ModelingEvaluating.ipynb
 jupyter_notebooks/*
 env
+outputs/v1/*
