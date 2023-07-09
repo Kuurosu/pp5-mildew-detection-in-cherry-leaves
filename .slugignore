@@ -18,5 +18,5 @@ jupyter_notebooks/01-DataCollection.ipynb
 jupyter_notebooks/02-DataVisualisation.ipynb
 jupyter_notebooks/03-ModelingEvaluating.ipynb
 jupyter_notebooks/*
-env
+env/*
 outputs/v1/*
