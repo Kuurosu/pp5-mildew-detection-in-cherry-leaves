@@ -91,6 +91,11 @@ These user stories were addressed by implementing the following tasks, which are
 
 The client is interested in obtaining a prediction report for the examined leaves.
 
+#### User Story:
+- As a client, I want to receive a report from the machine learning (ML) predictions on new leaves.
+
+This user story was addressed by implementing the following task, which is presented in the Streamlit dashboard:
+- After each batch of uploaded images, a downloadable `.csv` report is generated containing the predicted status for each leaf.
 
 ## Cloud IDE Reminders
 
