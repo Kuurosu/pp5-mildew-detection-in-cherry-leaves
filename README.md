@@ -186,6 +186,10 @@ To clone the repository locally, follow these steps:
 - [GitHub](https://github.com/): Repository for storing the project code.
 - [Gitpod](https://www.gitpod.io/): Development environment used for coding, committing, and pushing to GitHub.
 
+### Languages
+- [Python](https://www.python.org/)
+- [Markdown](https://en.wikipedia.org/wiki/Markdown)
+
 ## Credits 
 
 * In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
