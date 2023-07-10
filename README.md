@@ -111,6 +111,11 @@ This user story was addressed by implementing the following task, which is prese
     3. Generate a prediction report for examined leaves.
 - Link to this Readme.md file for more information about the project.
 
+### Page 2: Leaves Visualizer
+- Checkbox 1: Average vs. Variability Image
+- Checkbox 2: Average Infected vs. Average Healthy Leaves
+- Checkbox 3: Image Montage
+
 
 ## Cloud IDE Reminders
 
