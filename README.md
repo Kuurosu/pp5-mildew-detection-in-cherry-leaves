@@ -12,6 +12,16 @@ We were requested by our client, Farmy & Foods, a company in the agricultural se
 
 The purpose of this system is to automate the detection process, which has been performed manually until now. Farmy & Foods has thousands of cherry trees spread across multiple farms, making the manual inspection process time-consuming and non-scalable.
 
+### To Summarise
+
+The project encompasses the following business requirements:
+
+1. Conduct a study to visually differentiate a healthy cherry leaf from one infected by powdery mildew.
+2. Develop a prediction model to accurately classify cherry trees as healthy or affected by powdery mildew.
+3. Generate a prediction report that provides detailed information about the examined leaves.
+
+The aim of these requirements is to assist the client in effectively identifying and managing powdery mildew in their cherry trees, enabling them to make informed decisions based on the analysis of leaf conditions.
+
 
 ## Cloud IDE Reminders
 
