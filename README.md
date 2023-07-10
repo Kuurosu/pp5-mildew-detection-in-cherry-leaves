@@ -56,7 +56,7 @@ The three main business requirements have been broken down into several user sto
 
 By mapping the business requirements to data visualisations and ML tasks, we can effectively address the client's needs and provide accurate predictions and reports. This approach ensures that the implemented solutions align with the client's objectives and provide valuable insights for their cherry leaf analysis.
 
-### Business Requirement 1: Data Visualization
+### Business Requirement 1: Data Visualisation
 
 The client is interested in conducting a study that visually differentiates a cherry leaf affected by powdery mildew from a healthy one.
 
@@ -65,6 +65,13 @@ The client is interested in conducting a study that visually differentiates a ch
 - As a client, I want to display an image montage for healthy cherry leaves and cherry leaves affected by powdery mildew to visually differentiate them.
 - As a client, I want to display the "mean" and "standard deviation" images for healthy cherry leaves and cherry leaves affected by powdery mildew to visually differentiate them.
 - As a client, I want to display the difference between an average healthy cherry leaf and a cherry leaf affected by powdery mildew to visually differentiate them.
+
+These user stories were addressed by implementing the following tasks, which are presented in the Streamlit dashboard and calculated in the Data Visualisation notebook:
+
+- Development of a Streamlit-based dashboard with an easy-to-navigate side bar.
+- Calculation of the difference between an average infected leaf and an average healthy leaf.
+- Display of the "mean" and "standard deviation" images for healthy and powdery mildew-infected leaves.
+- Image montage for both infected and healthy leaves.
 
 ## Cloud IDE Reminders
 
