@@ -1,40 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Cherry Leaves Mildew Detector
 
-## Codeanywhere Template Instructions
+### Deployed version at [powdery-mildew-detector.herokuapp.com](https://powdery-mildew-detector-app-f1fbb6ec0583.herokuapp.com)
 
-Welcome,
+## Dataset Content
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+The dataset contains 4208 featured photos of single cherry leaves against a neutral background. The images are taken from the client's crop fields and show leaves that are either healthy or infested by [powdery mildew](https://extension.psu.edu/powdery-mildew-of-cherry-and-plum-in-home-fruit-plantings#:~:text=This%20disease%20is%20caused%20by,powdery%20mildew%20group%20of%20fungi.&text=The%20same%20fungus%20reportedly%20causes,and%20a%20few%20ornamental%20plants.) a biotrophic fungus. This disease affects many plant species but the client is particularly concerned about their cherry plantation crop since bitter cherries are their flagship product. The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
 
-You can safely delete the Gitpod Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the Gitpod Template Instructions at least once, though! It contains some important information about Gitpod and the extensions we use. 
+## Business Requirements
 
-## How to use this repo
+We were requested by our client, Farmy & Foods, a company in the agricultural sector, to develop a Machine Learning-based system that can instantly detect whether a certain cherry tree is affected by powdery mildew and requires treatment with a fungicide. The system should be capable of analyzing a tree leaf image and determining its health status promptly.
 
-1. Use this template to create your GitHub project repo
-
-1. Log into <a href="https://app.codeanywhere.com/" target="_blank" rel="noreferrer">CodeAnywhere</a> with your GitHub account.
-
-1. On your Dashboard, click on the New Workspace button
-
-1. Paste in the URL you copied from GitHub earlier
-
-1. Click Create
-
-1. Wait for the workspace to open. This can take a few minutes.
-
-1. Open a new terminal and <code>pip3 install -r requirements.txt</code>
-
-1. In the terminal type <code>pip3 install jupyter</code>
-
-1. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
-
-1. Open port 8888 preview or browser
-
-1. Open the jupyter_notebooks directory in the jupyter webpage that has opened and click on the notebook you want to open.
-
-1. Click the button Not Trusted and choose Trust.
-
-Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
+The purpose of this system is to automate the detection process, which has been performed manually until now. Farmy & Foods has thousands of cherry trees spread across multiple farms, making the manual inspection process time-consuming and non-scalable.
 
 
 ## Cloud IDE Reminders
