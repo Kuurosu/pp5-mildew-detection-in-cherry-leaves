@@ -45,7 +45,10 @@ Infected cherry leaves are expected to exhibit clear marks that differentiate th
   - Our objective is to predict whether a given cherry leaf is infected with powdery mildew or not.
   - We will develop a binary classifier specifically for this task and generate prediction reports.
 
+- **Business Requirement 3: Report**
 
+  - The client's requirement is to obtain a comprehensive prediction report of the examined cherry leaves.
+  - The report should provide detailed insights, analysis, and evaluation of the predictions made by the system.
 
 ## Cloud IDE Reminders
 
