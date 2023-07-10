@@ -138,16 +138,22 @@ For now I have manually saved the image, but I would need to explore further lib
 ## Deployment
 ### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
+## Creating the Heroku app
 
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
+To deploy the project on Heroku, follow these steps:
+
+1. Create a `requirements.txt` file on GitHub to specify the necessary dependencies for Heroku to install.
+2. Set the Python version in the `runtime.txt` file to a supported version compatible with Heroku-20 stack.
+3. Push the recent changes to GitHub and access your [Heroku account page](https://id.heroku.com/login) to create and deploy the app.
+4. Choose "CREATE NEW APP," assign a unique name, and select a geographical region.
+5. Add the `heroku/python` buildpack from the "Settings" tab.
+6. From the "Deploy" tab, select GitHub as the deployment method, connect to the repository, and choose the project's repository.
+7. Select the branch you wish to deploy and click "Deploy Branch."
+8. Enable automatic deploys or manually deploy the branch from the "Manual Deploy" section.
+9. Monitor the logs as Heroku installs the dependencies and builds the app.
+10. Once completed, access the mock terminal through a link such as `https://your-projects-name.herokuapp.com/`.
+11. If the slug size exceeds the limit, add large unnecessary files to the `.slugignore` file to exclude them from the deployment.
+
 
 
 ## Main Data Analysis and Machine Learning Libraries
