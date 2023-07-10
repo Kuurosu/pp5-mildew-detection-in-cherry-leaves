@@ -56,6 +56,9 @@ The three main business requirements have been broken down into several user sto
 
 By mapping the business requirements to data visualisations and ML tasks, we can effectively address the client's needs and provide accurate predictions and reports. This approach ensures that the implemented solutions align with the client's objectives and provide valuable insights for their cherry leaf analysis.
 
+### Business Requirement 1: Data Visualization
+
+The client is interested in conducting a study that visually differentiates a cherry leaf affected by powdery mildew from a healthy one.
 
 ## Cloud IDE Reminders
 
