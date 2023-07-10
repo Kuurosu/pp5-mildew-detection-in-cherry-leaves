@@ -204,8 +204,10 @@ To clone the repository locally, follow these steps:
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+### Content
+- The leaves dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves), created by [Code Institute](https://www.kaggle.com/codeinstitute).
+- The description of powdery mildew was sourced from [PennState Extension](https://extension.psu.edu/powdery-mildew-of-cherry-and-plum-in-home-fruit-plantings#:~:text=This%20disease%20is%20caused%20by,powdery%20mildew%20group%20of%20fungi.&text=The%20same%20fungus%20reportedly%20causes,and%20a%20few%20ornamental%20plants.).
+
 
 ### Content 
 
