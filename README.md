@@ -60,6 +60,12 @@ By mapping the business requirements to data visualisations and ML tasks, we can
 
 The client is interested in conducting a study that visually differentiates a cherry leaf affected by powdery mildew from a healthy one.
 
+#### User Story:
+- As a client, I want to navigate easily around an interactive dashboard so that I can view and understand the presented data.
+- As a client, I want to display an image montage for healthy cherry leaves and cherry leaves affected by powdery mildew to visually differentiate them.
+- As a client, I want to display the "mean" and "standard deviation" images for healthy cherry leaves and cherry leaves affected by powdery mildew to visually differentiate them.
+- As a client, I want to display the difference between an average healthy cherry leaf and a cherry leaf affected by powdery mildew to visually differentiate them.
+
 ## Cloud IDE Reminders
 
 To log into the Heroku toolbelt CLI:
