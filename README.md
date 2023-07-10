@@ -122,6 +122,9 @@ This user story was addressed by implementing the following task, which is prese
 - Table showing image names and prediction results.
 - Download button for report in CSV format.
 
+### Page 4: Project Hypothesis and Validation
+- Blocks for each project hypothesis, validation, and conclusion.
+
 
 ## Cloud IDE Reminders
 
