@@ -30,9 +30,21 @@ The aim of these requirements is to assist the client in effectively identifying
 
 ### Hypothesis: Differentiation of Infected Leaves
 
-**1. Introduction**
+**Introduction**
 
 Infected cherry leaves are expected to exhibit clear marks that differentiate them from healthy leaves. The initial symptom typically manifests as a light-green, circular lesion on either leaf surface, followed by the development of a subtle white cotton-like growth in the infected area. To enable effective machine learning analysis, image preprocessing techniques are employed to optimize feature extraction and model training.
+
+- **Business Requirement 1: Data Visualisation**
+
+  - We will display the "mean" and "standard deviation" images for infected and uninfected cherry leaves.
+  - We will visualise the difference between an average infected cherry leaf and an average uninfected cherry leaf.
+  - Image montages for infected or uninfected cherry leaves will be generated.
+
+- **Business Requirement 2: Classification**
+
+  - Our objective is to predict whether a given cherry leaf is infected with powdery mildew or not.
+  - We will develop a binary classifier specifically for this task and generate prediction reports.
+
 
 
 ## Cloud IDE Reminders
