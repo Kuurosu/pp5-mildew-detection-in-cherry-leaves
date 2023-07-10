@@ -176,8 +176,15 @@ To clone the repository locally, follow these steps:
 
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
 
+## Technologies Used
+
+### Platforms
+- [Heroku](https://en.wikipedia.org/wiki/Heroku): Deployment platform for this project.
+- [Jupyter Notebook](https://jupyter.org/): Code editing platform for this project.
+- [Kaggle](https://www.kaggle.com/): Source of datasets used in this project.
+- [GitHub](https://github.com/): Repository for storing the project code.
+- [Gitpod](https://www.gitpod.io/): Development environment used for coding, committing, and pushing to GitHub.
 
 ## Credits 
 
