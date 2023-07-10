@@ -190,6 +190,18 @@ To clone the repository locally, follow these steps:
 - [Python](https://www.python.org/)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
+### Main Libraries
+- tensorflow-cpu 2.6.0: Creating the machine learning model.
+- numpy 1.19.2: Array conversion.
+- scikit-learn 0.24.2: Model evaluation.
+- streamlit 0.85.0: Dashboard creation.
+- pandas 1.1.2: Dataframe creation and manipulation.
+- matplotlib 3.3.1: Plotting data.
+- keras 2.6.0: Model hyperparameter settings.
+- plotly 5.12.0: Plotting learning curves.
+- seaborn 0.11.0: Plotting confusion matrices.
+- streamlit: Creating and sharing the project interface.
+
 ## Credits 
 
 * In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
