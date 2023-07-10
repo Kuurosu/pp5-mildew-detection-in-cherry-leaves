@@ -208,19 +208,11 @@ To clone the repository locally, follow these steps:
 - The leaves dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves), created by [Code Institute](https://www.kaggle.com/codeinstitute).
 - The description of powdery mildew was sourced from [PennState Extension](https://extension.psu.edu/powdery-mildew-of-cherry-and-plum-in-home-fruit-plantings#:~:text=This%20disease%20is%20caused%20by,powdery%20mildew%20group%20of%20fungi.&text=The%20same%20fungus%20reportedly%20causes,and%20a%20few%20ornamental%20plants.).
 
+## Code
 
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
-
+- The template used for this project is from CodeInstitute - [GitHub](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves).
+- The app pages for the Streamlit dashboard, data collection, and data visualisation Jupyter notebooks are from the [Code Institute Malaria-Dector-Project](https://github.com/Code-Institute-Solutions/WalkthroughProject01) and served as the foundation for this project.
 
 
 ## Acknowledgements (optional)
-* Thank the people that provided support throughout this project.
+
