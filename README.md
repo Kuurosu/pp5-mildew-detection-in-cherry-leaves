@@ -163,6 +163,18 @@ To make a copy of the original repository on your GitHub account, follow these s
 3. Choose where you want to fork the repository (e.g., your own GitHub account).
 4. You now have a copy of the original repository in your GitHub account.
 
+## Making a Local Clone
+
+To clone the repository locally, follow these steps:
+
+1. Locate the [GitHub Repository](https://github.com/Kuurosu/pp5-mildew-detection-in-cherry-leaves) of this project and log into your GitHub account.
+2. Click on the "Code" button, located on the top right of the page.
+3. Copy the command provided by the GitHub CLI (e.g., `gh repo clone Kuurosu/pp5-mildew-detection-in-cherry-leaves`).
+4. Open your local IDE terminal.
+5. Paste the command into the terminal and press Enter.
+6. The repository will be cloned into the folder of your choice on your local machine.
+
+
 ## Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
 
