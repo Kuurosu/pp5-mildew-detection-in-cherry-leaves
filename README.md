@@ -50,6 +50,13 @@ Infected cherry leaves are expected to exhibit clear marks that differentiate th
   - The client's requirement is to obtain a comprehensive prediction report of the examined cherry leaves.
   - The report should provide detailed insights, analysis, and evaluation of the predictions made by the system.
 
+## Rationale for Mapping Business Requirements to Data Visualisations and ML Tasks
+
+The three main business requirements have been broken down into several user stories, which have been translated into specific machine learning tasks. All tasks have been manually tested and verified to ensure they function as expected.
+
+By mapping the business requirements to data visualisations and ML tasks, we can effectively address the client's needs and provide accurate predictions and reports. This approach ensures that the implemented solutions align with the client's objectives and provide valuable insights for their cherry leaf analysis.
+
+
 ## Cloud IDE Reminders
 
 To log into the Heroku toolbelt CLI:
