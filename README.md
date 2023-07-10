@@ -97,6 +97,21 @@ The client is interested in obtaining a prediction report for the examined leave
 This user story was addressed by implementing the following task, which is presented in the Streamlit dashboard:
 - After each batch of uploaded images, a downloadable `.csv` report is generated containing the predicted status for each leaf.
 
+## Dashboard Design (Streamlit App User Interface)
+
+### Page 1: Quick Project Summary
+- General Information:
+    - Powdery mildew is a fungal disease in cherry trees caused by Podosphaera clandestina. It forms a layer of mildew on the leaves, affecting plant growth and causing crop loss.
+    - Visual criteria for infected leaves: light-green circular lesions and white cotton-like growth on the leaves and fruits.
+- Project Dataset:
+    - 4208 photos of cherry leaves categorized as healthy or infected with powdery mildew.
+- Business requirements:
+    1. Visually differentiate between infected and healthy leaves.
+    2. Determine if a leaf is infected or not.
+    3. Generate a prediction report for examined leaves.
+- Link to this Readme.md file for more information about the project.
+
+
 ## Cloud IDE Reminders
 
 To log into the Heroku toolbelt CLI:
