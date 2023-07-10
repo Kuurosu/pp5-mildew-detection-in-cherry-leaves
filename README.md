@@ -214,5 +214,5 @@ To clone the repository locally, follow these steps:
 - The app pages for the Streamlit dashboard, data collection, and data visualisation Jupyter notebooks are from the [Code Institute Malaria-Dector-Project](https://github.com/Code-Institute-Solutions/WalkthroughProject01) and served as the foundation for this project.
 
 
-## Acknowledgements (optional)
-
+## Acknowledgements
+- I'd like to thank my mentor, Mo Shami. For motivating me to finish the project as I was at my wits end with this project and at the point of giving up. If it wasn't for him, I wouldn't have been able to complete this.
