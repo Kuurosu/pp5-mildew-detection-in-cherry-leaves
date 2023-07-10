@@ -125,6 +125,11 @@ This user story was addressed by implementing the following task, which is prese
 ### Page 4: Project Hypothesis and Validation
 - Blocks for each project hypothesis, validation, and conclusion.
 
+### Page 5: ML Performance Metrics
+- Label Frequencies
+- Model History - LSTM Model Accuracy and Losses
+- Generalised Performance on Test Set
+
 
 ## Cloud IDE Reminders
 
