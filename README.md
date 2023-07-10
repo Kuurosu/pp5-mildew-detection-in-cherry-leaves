@@ -77,6 +77,16 @@ These user stories were addressed by implementing the following tasks, which are
 
 The client is interested in determining whether a given cherry leaf is affected by powdery mildew or not.
 
+#### User Story:
+- As a client, I want a machine learning (ML) model that can predict with at least 86% accuracy whether a given cherry leaf is healthy or contains powdery mildew.
+
+These user stories were addressed by implementing the following tasks, which are presented in the Streamlit dashboard and calculated in the Data Visualisation notebook:
+
+- The client can upload cherry leaf images to the dashboard using an uploader widget for instant evaluation. The following key features are associated with this functionality:
+  - Images must be uploaded in `.jpeg` format.
+  - Multiple images can be uploaded at once, up to a total size of 200MB.
+  - The dashboard will display the uploaded image along with a prediction statement indicating whether the leaf is infected with powdery mildew or not, as well as the associated probability.
+
 
 ## Cloud IDE Reminders
 
