@@ -154,7 +154,14 @@ To deploy the project on Heroku, follow these steps:
 10. Once completed, access the mock terminal through a link such as `https://your-projects-name.herokuapp.com/`.
 11. If the slug size exceeds the limit, add large unnecessary files to the `.slugignore` file to exclude them from the deployment.
 
+## Forking the Repository
 
+To make a copy of the original repository on your GitHub account, follow these steps:
+
+1. Locate the [GitHub Repository](https://github.com/Kuurosu/pp5-mildew-detection-in-cherry-leaves) of this project and log into your GitHub account.
+2. Click on the "Fork" button, located on the top right of the page, just above the "Settings" button.
+3. Choose where you want to fork the repository (e.g., your own GitHub account).
+4. You now have a copy of the original repository in your GitHub account.
 
 ## Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
