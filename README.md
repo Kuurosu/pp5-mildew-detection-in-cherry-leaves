@@ -73,6 +73,11 @@ These user stories were addressed by implementing the following tasks, which are
 - Display of the "mean" and "standard deviation" images for healthy and powdery mildew-infected leaves.
 - Image montage for both infected and healthy leaves.
 
+### Business Requirement 2: Classification
+
+The client is interested in determining whether a given cherry leaf is affected by powdery mildew or not.
+
+
 ## Cloud IDE Reminders
 
 To log into the Heroku toolbelt CLI:
