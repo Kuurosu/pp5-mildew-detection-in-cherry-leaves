@@ -22,6 +22,11 @@ The project encompasses the following business requirements:
 
 The aim of these requirements is to assist the client in effectively identifying and managing powdery mildew in their cherry trees, enabling them to make informed decisions based on the analysis of leaf conditions.
 
+## Hypothesis and Validation
+
+- **Hypothesis**: Infected leaves exhibit distinct marks that differentiate them from healthy leaves.
+- **Validation Approach**: Conduct research on the disease and perform an average image study to further investigate and confirm the presence of clear distinguishing marks on infected leaves.
+
 
 ## Cloud IDE Reminders
 
