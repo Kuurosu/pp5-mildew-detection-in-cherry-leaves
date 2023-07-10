@@ -116,6 +116,12 @@ This user story was addressed by implementing the following task, which is prese
 - Checkbox 2: Average Infected vs. Average Healthy Leaves
 - Checkbox 3: Image Montage
 
+### Page 3: Powdery Mildew Detector
+- User-friendly interface with a file uploader widget for uploading cherry leaf images.
+- Display of uploaded image, prediction visualization, and prediction statement.
+- Table showing image names and prediction results.
+- Download button for report in CSV format.
+
 
 ## Cloud IDE Reminders
 
