@@ -28,6 +28,13 @@ The aim of these requirements is to assist the client in effectively identifying
 - **Validation Approach**: Conduct research on the disease and perform an average image study to further investigate and confirm the presence of clear distinguishing marks on infected leaves.
 
 
+### Hypothesis: Differentiation of Infected Leaves
+
+**1. Introduction**
+
+Infected cherry leaves are expected to exhibit clear marks that differentiate them from healthy leaves. The initial symptom typically manifests as a light-green, circular lesion on either leaf surface, followed by the development of a subtle white cotton-like growth in the infected area. To enable effective machine learning analysis, image preprocessing techniques are employed to optimize feature extraction and model training.
+
+
 ## Cloud IDE Reminders
 
 To log into the Heroku toolbelt CLI:
