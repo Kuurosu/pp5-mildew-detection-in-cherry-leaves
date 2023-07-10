@@ -87,6 +87,10 @@ These user stories were addressed by implementing the following tasks, which are
   - Multiple images can be uploaded at once, up to a total size of 200MB.
   - The dashboard will display the uploaded image along with a prediction statement indicating whether the leaf is infected with powdery mildew or not, as well as the associated probability.
 
+### Business Requirement 3: Report
+
+The client is interested in obtaining a prediction report for the examined leaves.
+
 
 ## Cloud IDE Reminders
 
